@@ -1,0 +1,10 @@
+//
+//  IMDB.xcconfig
+//  Movies
+//
+//  Created by Nicolas Alejandro Fernandez Amorosino on 04/09/2024.
+//
+
+BASE_URL = https:/$()/api.themoviedb.org/3/
+IMAGE_BASE_URL = https:/$()/image.tmdb.org/t/p/w500/
+API_KEY = e6d2913c515a6efc335202cfab08c68a
