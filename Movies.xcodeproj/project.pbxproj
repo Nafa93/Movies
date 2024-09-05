@@ -11,7 +11,7 @@
 		195A7DAF2C87ADE40016CB10 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195A7DAE2C87ADE40016CB10 /* HomeView.swift */; };
 		195A7DB12C87ADE60016CB10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195A7DB02C87ADE60016CB10 /* Assets.xcassets */; };
 		195A7DB42C87ADE60016CB10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195A7DB32C87ADE60016CB10 /* Preview Assets.xcassets */; };
-		195A7DBE2C87ADE60016CB10 /* MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195A7DBD2C87ADE60016CB10 /* MoviesTests.swift */; };
+		195A7DBE2C87ADE60016CB10 /* DetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195A7DBD2C87ADE60016CB10 /* DetailsViewModelTests.swift */; };
 		195A7DC82C87ADE60016CB10 /* MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195A7DC72C87ADE60016CB10 /* MoviesUITests.swift */; };
 		195A7DCA2C87ADE60016CB10 /* MoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195A7DC92C87ADE60016CB10 /* MoviesUITestsLaunchTests.swift */; };
 		195A7DF82C87CFCA0016CB10 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 195A7DE62C87CFC90016CB10 /* Poppins-SemiBold.ttf */; };
@@ -81,7 +81,7 @@
 		195A7DB02C87ADE60016CB10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		195A7DB32C87ADE60016CB10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		195A7DB92C87ADE60016CB10 /* MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		195A7DBD2C87ADE60016CB10 /* MoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTests.swift; sourceTree = "<group>"; };
+		195A7DBD2C87ADE60016CB10 /* DetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModelTests.swift; sourceTree = "<group>"; };
 		195A7DC32C87ADE60016CB10 /* MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		195A7DC72C87ADE60016CB10 /* MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesUITests.swift; sourceTree = "<group>"; };
 		195A7DC92C87ADE60016CB10 /* MoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -204,7 +204,7 @@
 		195A7DBC2C87ADE60016CB10 /* MoviesTests */ = {
 			isa = PBXGroup;
 			children = (
-				195A7DBD2C87ADE60016CB10 /* MoviesTests.swift */,
+				195A7DBD2C87ADE60016CB10 /* DetailsViewModelTests.swift */,
 			);
 			path = MoviesTests;
 			sourceTree = "<group>";
@@ -538,7 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				195A7DBE2C87ADE60016CB10 /* MoviesTests.swift in Sources */,
+				195A7DBE2C87ADE60016CB10 /* DetailsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
